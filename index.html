@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treino de Maria Vitória</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background:#ffeef5; color:#333; }
+    header { background:#f8cfe0; padding:40px 20px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+    header h1 { margin:0; font-size:42px; }
+    header p { margin-top:8px; font-size:18px; }
+    .container { max-width:1000px; margin:40px auto; padding:0 16px; }
+    .card { background:#fff; border-radius:18px; box-shadow:0 6px 18px rgba(0,0,0,0.08); padding:24px; margin-bottom:40px; }
+    .card h2 { text-align:center; margin-top:0; margin-bottom:20px; }
+    .card img { width:100%; max-height:700px; object-fit:contain; border-radius:14px; display:block; margin:0 auto; }
+    footer { text-align:center; padding:30px 10px; color:#777; font-size:14px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Treino de Maria Vitória</h1>
+    <p>Ficha semanal de treino</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Segunda-feira — Quadríceps</h2>
+      <img src="images/segunda.png" alt="Segunda-feira Quadríceps" />
+    </div>
+
+    <div class="card">
+      <h2>Terça-feira — Costas e Abdômen</h2>
+      <img src="images/terca.png" alt="Terça-feira Costas e Abdômen" />
+    </div>
+
+    <div class="card">
+      <h2>Quarta-feira — Glúteos</h2>
+      <img src="images/quarta.png" alt="Quarta-feira Glúteos" />
+    </div>
+
+    <div class="card">
+      <h2>Quinta-feira — Ombro, Bíceps e Tríceps</h2>
+      <img src="images/quinta.png" alt="Quinta-feira Ombro Bíceps Tríceps" />
+    </div>
+
+    <div class="card">
+      <h2>Sexta-feira — Posterior de Coxa</h2>
+      <img src="images/sexta.png" alt="Sexta-feira Posterior de Coxa" />
+    </div>
+
+  </div>
+
+  <footer>
+    © <span id="year"></span> Treino de Maria Vitória
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
